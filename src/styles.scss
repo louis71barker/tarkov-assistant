@@ -1,4 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+// @use '@angular/material' as mat;
+// $my-custom-level: mat.define-typography-level(
+//   $font-family: Bender,
+//   $font-weight: 400,
+//   $font-size: 1rem,
+//   $line-height: 1,
+//   $letter-spacing: normal,
+// );
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body { margin: 0; font-family: Bender, "Helvetica Neue", sans-serif !important; }
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+@import url(//db.onlinewebfonts.com/c/d5a8bec322b0eff3e36cd29411ff21db?family=Bender);
+
+// mat-grid-tile .mat-figure {
+//   justify-content: flex-start !important ;
+//   align-items: flex-start !important;
+// }
+
